@@ -18,8 +18,8 @@ const ImageWithHover: React.FC<PhotoProps> = ({ src, alt, description }) => {
         width={500} // Set a default width
         height={300} // Set a default height to maintain the aspect ratio
       />
-      <div className="absolute inset-0 bg-pink-100 opacity-70 transition-transform duration-500 group-hover:scale-x-100 group-hover:scale-y-100 transform scale-x-0 scale-y-0 origin-bottom-left" />
-      <div className="m-2 absolute bottom-0 left-0 right-0 flex items-center transform translate-x-full bg-white opacity-95 transition-transform duration-500 group-hover:translate-x-0">
+      <div className="absolute inset-0 bg-red-200 opacity-70 transition-transform duration-700 group-hover:scale-x-100 group-hover:scale-y-100 transform scale-x-0 scale-y-0 origin-bottom-left" />
+      <div className="m-8 absolute bottom-0 left-0 right-0 flex items-center transform translate-x-full bg-white opacity-95 transition-transform duration-500 group-hover:translate-x-0">
         <div className="p-2 text-center">{description}</div>
       </div>
     </div>

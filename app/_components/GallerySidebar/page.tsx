@@ -34,7 +34,7 @@ const page = () => {
   ];
 
   return (
-    <div className="w-[35%] flex flex-row gap-0.5 p-4">
+    <div className="w-[40%] flex flex-row gap-0.5 p-4 overflow-y-auto">
       <div className="w-1/2">
         {images.map((item, index) => (
           <Link key={index} href={`/gallery/${index + 1}`} passHref>
