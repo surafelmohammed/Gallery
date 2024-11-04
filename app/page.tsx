@@ -11,7 +11,7 @@ export default function Home() {
     AOS.init({ duration: 500 });
   }, []);
   return (
-    <div className="flex h-screen">
+    <div className="flex flex-col h-screen md:flex-row">
       <SideBar />
       <Main />
       <GallerySidebar />
